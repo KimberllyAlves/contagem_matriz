@@ -1,13 +1,13 @@
-Projeto de Interrupções [Unidade 04 - Capítulo 04] 
+# Projeto de Interrupções [Unidade 04 - Capítulo 04] 
 
-Para assistir o resultado do projeto CLIQUE AQUI
-Observe abaixo o hardware simulado.
+##### Para assistir o resultado do projeto CLIQUE AQUI
+##### Observe abaixo o hardware simulado.
 
 ![image](https://github.com/user-attachments/assets/e1802408-0989-4b1f-af38-a32830ac830c)
 
-Esse projeto consiste em controlar LEDs e animar um contador com base na interação com botões. No projeto, ao pressionar os botões A e B, o valor de um contador é alterado e animado. O LED indicado pisca durante a interação.
+#### Esse projeto consiste em controlar LEDs e animar um contador com base na interação com botões. No projeto, ao pressionar os botões A e B, o valor de um contador é alterado e animado. O LED indicado pisca durante a interação.
 
-Funcionalidade do Projeto:
+## Funcionalidade do Projeto:
 Botão A (Decrementa o contador):
 Ao pressionar o botão A, o contador diminui de 9 até 0, com a animação correspondente.
 Botão B (Incrementa o contador):
@@ -16,7 +16,7 @@ LED Indicador (Pisca com frequência definida):
 
 Um LED acende e apaga alternadamente enquanto o contador é atualizado.
 
-Comportamento do sistema:
+## Comportamento do sistema:
 O código utiliza um mecanismo de interrupção para detectar a pressão dos botões e, assim, atualizar o contador.
 O contador é animado e exibido no terminal.
 O LED RED (conectado ao pino 13) pisca 5 vezes por segundo enquanto o sistema está em funcionamento.
