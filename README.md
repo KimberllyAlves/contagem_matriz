@@ -44,7 +44,7 @@ As extensões recomendadas são:
 - CMake Tools.
 - Wokwi Simulator.
 - Raspberry Pi Pico.
-- 
+  
 ### 3. Clone o Repositório
 Clone o repositório para o seu computador:
 https://github.com/KimberllyAlves/contagem_matriz.git
