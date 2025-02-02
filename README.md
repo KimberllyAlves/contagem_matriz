@@ -20,7 +20,16 @@ O código utiliza um mecanismo de interrupção para detectar a pressão dos bot
 O contador é animado e exibido no terminal.
 O LED RED (conectado ao pino 13) pisca 5 vezes por segundo enquanto o sistema está em funcionamento.
 
-## Pré-requisitos para abrir o projeto
+## Requisitos  
+
+- Microcontrolador: Raspberry Pi Pico ou Raspberry Pi Pico W (opcional)
+- Placa de Desenvolvimento: BitDogLab (opcional).
+- Conta Criada no Wokwi Simulator
+- Editor de Código: Visual Studio Code (VS Code).
+- SDK do Raspberry Pi Pico configurado no sistema.
+- Ferramentas de build: CMake e Ninja.
+
+## Instruçõess para abrir o projeto
 
 Para configurar o ambiente de desenvolvimento, siga as instruções abaixo:
 
@@ -29,32 +38,26 @@ Para configurar o ambiente de desenvolvimento, siga as instruções abaixo:
 - Instale o programa e configure conforme necessário.
 - Adicione a extensão [Wokwi](https://marketplace.visualstudio.com/items?itemName=Wokwi.wokwi-vscode) e faça sua integração com o VS CODE para simular o hardware.
 
-### 2. Instalar o CMake
-- Baixe o instalador do CMake: [CMake](https://cmake.org/download/).
-- Durante a instalação, marque a opção **"Add CMake to the system PATH"**.
-- Conclua a instalação.
+### 2. Instale as dependências
+As extensões recomendadas são:
+- C/C++ (Microsoft).
+- CMake Tools.
+- Wokwi Simulator.
+- Raspberry Pi Pico.
+- 
+### 3. Clone o Repositório
+Clone o repositório para o seu computador:
+https://github.com/KimberllyAlves/contagem_matriz.git
 
-### 3. Instalar o GCC para ARM
-- Baixe o compilador ARM GNU em: [GCC ARM Toolchain](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm).
-- Após a instalação, adicione o diretório do executável ao **PATH**:
-  - Vá para **Configurações do Sistema > Variáveis de Ambiente**.
-  - Edite a variável `Path` e adicione:
-    ```
-    C:\Program Files (x86)\Arm GNU Toolchain\<versão>\bin
-    ```
-  - Substitua `<versão>` pela versão instalada.
+### 4. Teste no Simulador Wokwi Integrado ao VS Code
 
-### 4. Instalar o Git
-- Faça o download: [Git para Windows](https://git-scm.com/).
-- Instale o programa e configure-o.
-- Abra o terminal (Git Bash ou CMD) e configure seu nome e e-mail:
-  ```bash
-  git config --global user.name "Seu Nome"
-  git config --global user.email "seu.email@exemplo.com"
+- Abra o arquivo diagram.json no Visual Studio Code.
+- Clique no botão "Play" disponível na interface.
 
-### 5. Instale o Raspberry Pi Pico SDK 
-- Faça o download aqui: [Pico Setup Windows](https://github.com/raspberrypi/pico-setup-windows?tab=readme-ov-file).
-- Instale o [Zadig](https://zadig.akeo.ie/) para configuração de drivers
+### 5. Teste no Hardware Real
+- Conecte a placa ao computador no modo BOTSEEL
+- Compile o projeto no VS Code utilizando a extensão do Raspberry Pi Pico W
+- Execute o projeto clicando em Run Project USB, localizado abaixo do botão Compile Project.
 
 ## Vídeo de demonstração 
 
