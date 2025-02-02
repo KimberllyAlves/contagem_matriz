@@ -1,11 +1,10 @@
 # Projeto de Interrupções [Unidade 04 - Capítulo 04] 
 
-##### Para assistir o resultado do projeto [CLIQUE AQUI](https://drive.google.com/file/d/1dZjip5uzi3j4ZXtbFPlB4VFSfgd-aEAi/view?usp=sharing)
+#### Esse projeto consiste em controlar LEDs e animar um contador com base na interação com botões. No projeto, ao pressionar os botões A e B, o valor de um contador é alterado e animado. O LED indicado pisca durante a interação.
+
 ##### Observe abaixo o hardware simulado.
 
 ![image](https://github.com/user-attachments/assets/e1802408-0989-4b1f-af38-a32830ac830c)
-
-#### Esse projeto consiste em controlar LEDs e animar um contador com base na interação com botões. No projeto, ao pressionar os botões A e B, o valor de um contador é alterado e animado. O LED indicado pisca durante a interação.
 
 ## Funcionalidade do Projeto:
 Botão A (Decrementa o contador):
@@ -56,3 +55,7 @@ Para configurar o ambiente de desenvolvimento, siga as instruções abaixo:
 ### 5. Instale o Raspberry Pi Pico SDK 
 - Faça o download aqui: [Pico Setup Windows](https://github.com/raspberrypi/pico-setup-windows?tab=readme-ov-file).
 - Instale o [Zadig](https://zadig.akeo.ie/) para configuração de drivers
+
+## Vídeo de demonstração 
+
+##### Para assistir o resultado do projeto [CLIQUE AQUI](https://drive.google.com/file/d/1dZjip5uzi3j4ZXtbFPlB4VFSfgd-aEAi/view?usp=sharing)
